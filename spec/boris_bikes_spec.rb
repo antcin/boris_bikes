@@ -3,7 +3,7 @@
 # if we don't use 'require'.. (relative path)rspec doesn't know
 # where to look for the actual method or class
 
-require './lib/boris_bikes'
+require './lib/docking_station'
 
 describe DockingStation do
 
@@ -13,5 +13,4 @@ describe DockingStation do
 
 # it { is_expected.to respond_to(:release_bike)}
  it { should respond_to(:release_bike)} #alternative one liner
-
 end
